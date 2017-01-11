@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'finalf';
+    src: url('../fonts/Ferrum.eot');
+    src: url('../fonts/Ferrum.eot?#iefix') format('embedded-opentype'), url('../fonts/Ferrum.woff2') format('woff2'), url('../fonts/Ferrum.woff') format('woff'), url('../fonts/Ferrum.ttf') format('truetype'), url('../fonts/Ferrum.svg#Ferrum') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.ff {
+    font-family: 'finalf';
+}
+
+.title {
+    text-align: center;
+    font-size: 8em;
+    text-decoration: underline;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 4em;
+    color: #D4AF37
+}
+
+.introtitle {
+    text-align: center;
+    font-size: 6em;
+    text-decoration: underline;
+    margin-top: 1em;
+}
+
+.introsubtitle {
+    text-align: center;
+    font-size: 2.5em;
+    color: #D4AF37;
+    margin-bottom: 30px;
+}
+
+.btn-gold {
+    background-color: #D4AF37;
+    color: white;
+    width: 6em;
+}
+
+body {
+    padding-top: 100px;
+}
+
+.btn-first {
+    background-color: #D4AF37;
+    color: white;
+    width: 12em;
+    height: 3em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.btn-first:hover,
+.btn-last:hover {
+    background-color: black;
+    color: #D4AF37;
+    transition: 0.5s;
+}
+
+.btn-last {
+    background-color: #D4AF37;
+    color: white;
+    width: 12em;
+    height: 3em;
+    margin-top: 3em;
+    margin-bottom: 6em;
+}
+
+.introphoto {
+    margin-bottom: 25px;
+}
+
+.carousel_header {
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    margin: 0px;
+    font-family: 'finalf';
+    font-size: 3em;
+}
+
+.carousel {
+    margin-bottom: 3em;
+}
