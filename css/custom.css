@@ -91,7 +91,7 @@ body {
 }
 
 .carousel-caption {
-    position: relative;
+    position: static;
     left: auto;
     right: auto;
     color: black;
@@ -112,6 +112,10 @@ body {
 
 .carousel-inner {
     margin: auto;
+}
+
+.carousel-indicators {
+    bottom: -0.5em;
 }
 
 .carousel-indicators .active {
