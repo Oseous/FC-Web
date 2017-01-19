@@ -59,7 +59,7 @@
                         <!-- Text area -->
                         <div class="form-group row">
                             <label for="Q2" class="col-xs-12 col-form-label">What are your max level jobs? Do you have a main/preferred role? 
-                                (If you don't yet have a max level job, list your highest level and job)</label>
+                                What is the ilvl of your preferred role? (If you don't yet have a max level job, list your highest level and job)</label>
                             <div class="col-xs-12">
                                 <textarea class="form-control" name="Q2" rows="4" required></textarea>
                             </div>
@@ -68,7 +68,7 @@
                         <!-- Radio Buttons -->
                         <div class="form-group row">
                             <label for="Q3" class="col-xs-12 col-form-label">Are you able to take supportive advice or constructive criticism? 
-                                (Ex. "You should be skipping the Dancing Edge combo when we have a WAR putting Storm's Eye debuff on the boss.")
+                                (Ex. "Arrange your rotation so that Trick Attack can be ready for burn phase.")
                             </label>
                             <div class="form-check">
                                 <label class="form-check-label col-xs-12">
@@ -83,48 +83,64 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="Q4" class="col-xs-12 col-form-label">If 1 FC member of a raid is making mistakes and preventing the rest of the 
-                                group from advancing to the next phase of the fight, what is the best solution?</label>
-                            <div class="col-xs-12">
-                                <textarea class="form-control" name="Q4" rows="4" placeholder="1 or 2 sentence answers are fine." required></textarea>
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <label for="Q5" class="col-xs-12 col-form-label">Have you been in a Free Company before? If so, what is the name of the FC
-                                and what was the reason for leaving?</label>
-                            <div class="col-xs-12">
-                                <textarea class="form-control" name="Q5" rows="4" required></textarea>
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <label for="Q6" class="col-xs-12 col-form-label">If you have friend(s) in Radiant Royals, please list their name(s)</label>
-                            <div class="col-xs-12">
-                                <input class="form-control" type="text" name="Q6">
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <label for="Q7" class="col-xs-12 col-form-label">We value bringing in Qaulity Members over rapidly increasing 
-                                the size of our roster. Are you a punctual, responsible, patient - AKA a mature - player? 
+                            <label for="Q4" class="col-xs-12 col-form-label">Are you interested in Midcore Progression at Radiant Royals?
+                                (If you're a casual player looking into midcore, expect to be thrown out of your comfort zone.)
                             </label>
                             <div class="form-check">
                                 <label class="form-check-label col-xs-12">
-                                    <input type="radio" class="form-check-input" name="Q7" id="1" value="Yes, I want to grow with Radiant Royals." required>
+                                    <input type="radio" class="form-check-input" name="Q4" id="1" value="Yes, I am interested in midcore" required>
                                     Yes
                                 </label>
                                 <label class="form-check-label col-xs-12">
-                                    <input type="radio" class="form-check-input" name="Q7" id="0" value="No" required>
+                                    <input type="radio" class="form-check-input" name="Q4" id="0" value="No" required>
                                     No
                                 </label>
                             </div>
                         </div>
 
                         <div class="form-group row">
-                            <label for="Q8" class="col-xs-12 col-form-label">At which email can we get back to you?</label>
+                            <label for="Q5" class="col-xs-12 col-form-label">If 1 party member is preventing the rest of the 
+                                group from advancing to the next phase of the fight, what is the best solution?</label>
                             <div class="col-xs-12">
-                                <input class="form-control" type="email" name="Q8" placeholder="Please enter a valid email address." required>
+                                <textarea class="form-control" name="Q5" rows="4" placeholder="2 to 3 sentence answers are fine." required></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="Q6" class="col-xs-12 col-form-label">Were you ever a member of another Free Company? If so, what is the name of the FC
+                                and what was the reason for leaving?</label>
+                            <div class="col-xs-12">
+                                <textarea class="form-control" name="Q6" rows="4" required></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="Q7" class="col-xs-12 col-form-label">If you have friend(s) in Radiant Royals, please list their name(s)</label>
+                            <div class="col-xs-12">
+                                <input class="form-control" type="text" name="Q7">
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="Q8" class="col-xs-12 col-form-label">We value bringing in Quality Members over rapidly increasing 
+                                the size of our roster. Are you a punctual, responsible, patient - AKA a mature - player? 
+                            </label>
+                            <div class="form-check">
+                                <label class="form-check-label col-xs-12">
+                                    <input type="radio" class="form-check-input" name="Q8" id="1" value="Yes, I want to grow with Radiant Royals." required>
+                                    Yes
+                                </label>
+                                <label class="form-check-label col-xs-12">
+                                    <input type="radio" class="form-check-input" name="Q8" id="0" value="No" required>
+                                    No
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="Q9" class="col-xs-12 col-form-label">At which email can we get back to you?</label>
+                            <div class="col-xs-12">
+                                <input class="form-control" type="email" name="Q9" placeholder="Please enter a valid email address." required>
                             </div>
                         </div>
                 </div>
@@ -187,9 +203,11 @@
         <div class="row botmargin">
             <div class="caption shadow-corner">
                 <h4>Visit our <a target="_blank" href="https://www.instagram.com/radiant_royals/">instagram</a> for more FC Moments!</h4>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut alios omittam, hunc appello, quem ille unum secutus est. Qua tu etiam inprudens utebare non numquam. Duo Reges: constructio interrete. Sed in rebus apertissimis nimium longi sumus.
-                    At cum de plurimis eadem dicit, tum certe de maximis. Diodorus, eius auditor, adiungit ad honestatem vacuitatem doloris. Quod quidem iam fit etiam in Academia. Quorum altera prosunt, nocent altera. Quae similitudo in genere etiam humano
-                    apparet. Quonam modo? Et quidem iure fortasse, sed tamen non gravissimum est testimonium multitudinis. Satisne ergo pudori consulat, si quis sine teste libidini pareat? Estne, quaeso, inquam, sitienti in bibendo voluptas?</p>
+                <p>Welcome to Radiant Royals! Whether you found us through Reddit or through one of our Shouts, we’re glad you
+                    came for a visit because we are prepared, engaging, and always striving to offer much more! Radiant Royals
+                    is composed of a mix of people who focus on Casual to Midcore styles of gameplay. From running Extreme
+                    Primal raids to simply running daily roulettes, we’re there and waiting. We are North America-based,
+                    and our members are most active during evening times.</p>
             </div>
         </div>
 
@@ -286,16 +304,20 @@
             <div class="col-xs-6">
                 <div class="row botmargin shadow-corner">
                     <div class="caption">
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut alios omittam, hunc appello, quem ille unum secutus est. Qua tu etiam inprudens utebare non numquam. Duo Reges: constructio interrete. Sed in rebus apertissimis nimium
-                            longi sumus. At cum de plurimis eadem dicit, tum certe de maximis. Diodorus, eius auditor, adiungit ad honestatem vacuitatem doloris. Quod quidem iam fit etiam in Academia.</p>
+                        <p>Midcore Progression - AKA Extreme Primal fights - is what makes us different. These fights are challenging,
+                            but rewarding. We are currently working on Zurvan Extreme and once it has been conquered, we
+                            will continue learning & farming other Heavensward primals for loot.
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="col-xs-6">
                 <div class="row botmargin">
                     <div class="caption shadow-corner">
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut alios omittam, hunc appello, quem ille unum secutus est. Qua tu etiam inprudens utebare non numquam. Duo Reges: constructio interrete. Sed in rebus apertissimis nimium
-                            longi sumus. At cum de plurimis eadem dicit, tum certe de maximis. Diodorus, eius auditor, adiungit ad honestatem vacuitatem doloris. Quod quidem iam fit etiam in Academia.</p>
+                        <p>If Midcore Progression isn't for you, you'd be glad to know we run a variety casual content and let's
+                            face it, everyone needs time to sit back and relax! We hunt for treasures in Aquapolis, run 24
+                            man raids for weekly tokens, daily roulettes, and ARR Extreme Primals for their ponies!
+                        </p>
                     </div>
                 </div>
             </div>
@@ -325,32 +347,44 @@
                             <img src="img/primalfocus.jpg" class="img-responsive">
                             <div class="carousel-caption">
                                 <h4>Sriracha Mayo</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut alios omittam, hunc appello, quem ille unum secutus est. Qua tu etiam inprudens utebare non numquam. Duo Reges: constructio interrete. Sed in rebus apertissimis
-                                    nimium longi sumus. At cum de plurimis eadem dicit, tum certe de maximis. Diodorus, eius auditor, adiungit ad honestatem vacuitatem doloris. Quod quidem iam fit etiam in Academia.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut alios omittam, hunc appello,
+                                    quem ille unum secutus est. Qua tu etiam inprudens utebare non numquam. Duo Reges: constructio
+                                    interrete. Sed in rebus apertissimis nimium longi sumus. At cum de plurimis eadem dicit,
+                                    tum certe de maximis. Diodorus, eius auditor, adiungit ad honestatem vacuitatem doloris.
+                                    Quod quidem iam fit etiam in Academia.</p>
                             </div>
                         </div>
                         <div class="item">
                             <img src="img/primalfocus.jpg" class="img-responsive">
                             <div class="carousel-caption">
                                 <h4>Sriracha Mayo</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut alios omittam, hunc appello, quem ille unum secutus est. Qua tu etiam inprudens utebare non numquam. Duo Reges: constructio interrete. Sed in rebus apertissimis
-                                    nimium longi sumus. At cum de plurimis eadem dicit, tum certe de maximis. Diodorus, eius auditor, adiungit ad honestatem vacuitatem doloris. Quod quidem iam fit etiam in Academia.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut alios omittam, hunc appello,
+                                    quem ille unum secutus est. Qua tu etiam inprudens utebare non numquam. Duo Reges: constructio
+                                    interrete. Sed in rebus apertissimis nimium longi sumus. At cum de plurimis eadem dicit,
+                                    tum certe de maximis. Diodorus, eius auditor, adiungit ad honestatem vacuitatem doloris.
+                                    Quod quidem iam fit etiam in Academia.</p>
                             </div>
                         </div>
                         <div class="item">
                             <img src="img/primalfocus.jpg" class="img-responsive">
                             <div class="carousel-caption">
                                 <h4>Sriracha Mayo</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut alios omittam, hunc appello, quem ille unum secutus est. Qua tu etiam inprudens utebare non numquam. Duo Reges: constructio interrete. Sed in rebus apertissimis
-                                    nimium longi sumus. At cum de plurimis eadem dicit, tum certe de maximis. Diodorus, eius auditor, adiungit ad honestatem vacuitatem doloris. Quod quidem iam fit etiam in Academia.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut alios omittam, hunc appello,
+                                    quem ille unum secutus est. Qua tu etiam inprudens utebare non numquam. Duo Reges: constructio
+                                    interrete. Sed in rebus apertissimis nimium longi sumus. At cum de plurimis eadem dicit,
+                                    tum certe de maximis. Diodorus, eius auditor, adiungit ad honestatem vacuitatem doloris.
+                                    Quod quidem iam fit etiam in Academia.</p>
                             </div>
                         </div>
                         <div class="item">
                             <img src="img/primalfocus.jpg" class="img-responsive">
                             <div class="carousel-caption">
                                 <h4>Sriracha Mayo</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut alios omittam, hunc appello, quem ille unum secutus est. Qua tu etiam inprudens utebare non numquam. Duo Reges: constructio interrete. Sed in rebus apertissimis
-                                    nimium longi sumus. At cum de plurimis eadem dicit, tum certe de maximis. Diodorus, eius auditor, adiungit ad honestatem vacuitatem doloris. Quod quidem iam fit etiam in Academia.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut alios omittam, hunc appello,
+                                    quem ille unum secutus est. Qua tu etiam inprudens utebare non numquam. Duo Reges: constructio
+                                    interrete. Sed in rebus apertissimis nimium longi sumus. At cum de plurimis eadem dicit,
+                                    tum certe de maximis. Diodorus, eius auditor, adiungit ad honestatem vacuitatem doloris.
+                                    Quod quidem iam fit etiam in Academia.</p>
                             </div>
                         </div>
                     </div>
@@ -380,32 +414,44 @@
                             <img src="img/primalfocus.jpg" class="img-responsive">
                             <div class="carousel-caption">
                                 <h4>Sriracha Mayo</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut alios omittam, hunc appello, quem ille unum secutus est. Qua tu etiam inprudens utebare non numquam. Duo Reges: constructio interrete. Sed in rebus apertissimis
-                                    nimium longi sumus. At cum de plurimis eadem dicit, tum certe de maximis. Diodorus, eius auditor, adiungit ad honestatem vacuitatem doloris. Quod quidem iam fit etiam in Academia.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut alios omittam, hunc appello,
+                                    quem ille unum secutus est. Qua tu etiam inprudens utebare non numquam. Duo Reges: constructio
+                                    interrete. Sed in rebus apertissimis nimium longi sumus. At cum de plurimis eadem dicit,
+                                    tum certe de maximis. Diodorus, eius auditor, adiungit ad honestatem vacuitatem doloris.
+                                    Quod quidem iam fit etiam in Academia.</p>
                             </div>
                         </div>
                         <div class="item">
                             <img src="img/gil.jpg" class="img-responsive">
                             <div class="carousel-caption">
                                 <h4>Sriracha Mayo</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut alios omittam, hunc appello, quem ille unum secutus est. Qua tu etiam inprudens utebare non numquam. Duo Reges: constructio interrete. Sed in rebus apertissimis
-                                    nimium longi sumus. At cum de plurimis eadem dicit, tum certe de maximis. Diodorus, eius auditor, adiungit ad honestatem vacuitatem doloris. Quod quidem iam fit etiam in Academia.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut alios omittam, hunc appello,
+                                    quem ille unum secutus est. Qua tu etiam inprudens utebare non numquam. Duo Reges: constructio
+                                    interrete. Sed in rebus apertissimis nimium longi sumus. At cum de plurimis eadem dicit,
+                                    tum certe de maximis. Diodorus, eius auditor, adiungit ad honestatem vacuitatem doloris.
+                                    Quod quidem iam fit etiam in Academia.</p>
                             </div>
                         </div>
                         <div class="item">
                             <img src="img/events.jpg" class="img-responsive">
                             <div class="carousel-caption">
                                 <h4>Sriracha Mayo</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut alios omittam, hunc appello, quem ille unum secutus est. Qua tu etiam inprudens utebare non numquam. Duo Reges: constructio interrete. Sed in rebus apertissimis
-                                    nimium longi sumus. At cum de plurimis eadem dicit, tum certe de maximis. Diodorus, eius auditor, adiungit ad honestatem vacuitatem doloris. Quod quidem iam fit etiam in Academia.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut alios omittam, hunc appello,
+                                    quem ille unum secutus est. Qua tu etiam inprudens utebare non numquam. Duo Reges: constructio
+                                    interrete. Sed in rebus apertissimis nimium longi sumus. At cum de plurimis eadem dicit,
+                                    tum certe de maximis. Diodorus, eius auditor, adiungit ad honestatem vacuitatem doloris.
+                                    Quod quidem iam fit etiam in Academia.</p>
                             </div>
                         </div>
                         <div class="item">
                             <img src="img/you.jpg" class="img-responsive">
                             <div class="carousel-caption">
                                 <h4>Sriracha Mayo</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut alios omittam, hunc appello, quem ille unum secutus est. Qua tu etiam inprudens utebare non numquam. Duo Reges: constructio interrete. Sed in rebus apertissimis
-                                    nimium longi sumus. At cum de plurimis eadem dicit, tum certe de maximis. Diodorus, eius auditor, adiungit ad honestatem vacuitatem doloris. Quod quidem iam fit etiam in Academia.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut alios omittam, hunc appello,
+                                    quem ille unum secutus est. Qua tu etiam inprudens utebare non numquam. Duo Reges: constructio
+                                    interrete. Sed in rebus apertissimis nimium longi sumus. At cum de plurimis eadem dicit,
+                                    tum certe de maximis. Diodorus, eius auditor, adiungit ad honestatem vacuitatem doloris.
+                                    Quod quidem iam fit etiam in Academia.</p>
                             </div>
                         </div>
                     </div>
