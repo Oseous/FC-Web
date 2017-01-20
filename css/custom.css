@@ -125,3 +125,13 @@ body {
 .carousel-indicators li {
     background-color: black;
 }
+
+#carousel3 {
+    background-color: white;
+    height: 528px;
+}
+
+#carousel4 {
+    background-color: white;
+    height: 528px;
+}
